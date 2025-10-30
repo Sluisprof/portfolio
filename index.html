@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Professor Sergio - Portfólio</title>
+  <title>Professor Sergio - Página Inicial</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: #f0f4f8;
       color: #333;
     }
     header {
@@ -18,16 +18,32 @@
       padding: 2rem;
       text-align: center;
     }
+    nav {
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
     section {
       padding: 2rem;
       max-width: 900px;
       margin: auto;
+      text-align: center;
     }
-    h2 {
-      color: #2c3e50;
-    }
-    ul {
-      padding-left: 1.2rem;
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      border-radius: 8px;
     }
     footer {
       background-color: #2c3e50;
@@ -35,10 +51,6 @@
       text-align: center;
       padding: 1rem;
       margin-top: 2rem;
-    }
-    .contato a {
-      color: #3498db;
-      text-decoration: none;
     }
   </style>
 </head>
@@ -48,37 +60,17 @@
     <p>Educador, Mentor e Empreendedor</p>
   </header>
 
-  <section>
-    <h2>Sobre Mim</h2>
-    <p>Sou Sergio, professor com 54 anos, pai de dois filhos. Minha trajetória inclui formação parcial em Engenharia Civil, ensino técnico em Eletrônica e uma carreira diversificada como gerente bancário e empreendedor. Hoje, atuo como educador no ensino médio, ensinando disciplinas que conectam teoria à prática.</p>
-  </section>
+  <nav>
+    <a href="sobre.html">Sobre Mim</a>
+    <a href="disciplinas.html">Disciplinas</a>
+    <a href="experiencia.html">Experiência</a>
+    <a href="contato.html">Contato</a>
+  </nav>
 
   <section>
-    <h2>Disciplinas que Ensino</h2>
-    <ul>
-      <li>Matemática</li>
-      <li>Física</li>
-      <li>Educação Financeira</li>
-      <li>Empreendedorismo</li>
-      <li>Programação</li>
-      <li>Projeto de Vida</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Minha Trajetória Profissional</h2>
-    <ul>
-      <li>Gerente de Pessoa Física e Jurídica em banco por 10 anos</li>
-      <li>Empreendedor em oficina mecânica, corretagem, logística reversa e loja de produtos naturais</li>
-      <li>Licenciado em Matemática e atuando como professor no ensino médio</li>
-    </ul>
-  </section>
-
-  <section class="contato">
-    <h2>Contato</h2>
-    <p>Email: <a href="mailto:seuemail@email.com">seuemail@email.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/seunome" target="_blank">linkedin.com/in/seunome</a></p>
-    <p>Instagram: <a href="https://instagram.com/seuusuario" target="_blank">@seuusuario</a></p>
+    <h2>Bem-vindo ao meu portfólio!</h2>
+    <p>Sou Sergio, professor com uma trajetória rica em experiências práticas e acadêmicas. Aqui você vai conhecer minha história, disciplinas que ensino e como ajudo jovens a se prepararem para o futuro.</p>
+    <img src="https://img.freepik.com/fotos-gratis/professor-explicando-conceitos-aos-alunos-na-sala-de-aula_23-2148898290.jpg" alt="Professor em sala de aula">
   </section>
 
   <footer>
@@ -86,4 +78,3 @@
   </footer>
 </body>
 </html>
-
